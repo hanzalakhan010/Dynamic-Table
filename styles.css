@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Code Pro', monospace;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin: 20px 0;
+  margin-bottom: 40px;
+}
+
+form {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  font-size: 16px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+input::placeholder {
+  color: #999;
+}
+
+.search-btn {
+  margin-left: 10px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: #333;
+  color: #e0e0e0;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.search-btn:hover {
+  background-color: #555;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #444;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #333;
+}
+
+td {
+  background-color: #1e1e1e;
+}
+
+tr:hover td {
+  background-color: #333;
+}
+button{
+  background-color: transparent;
+  color: white;
+  border: none;
+  &:hover{
+    cursor: pointer;
+  }
+}

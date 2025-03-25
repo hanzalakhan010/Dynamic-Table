@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": "5e6f7g8h",
+      "name": "Khan Hanzala",
+      "email": "ethan.walker@example.com",
+      "city": "Phoenix"
+    },
+    {
+      "id": "6f7g8h9i",
+      "name": "Fiona Scott",
+      "email": "fiona.scott@example.com",
+      "city": "Philadelphia"
+    },
+    {
+      "id": "7g8h9i0j",
+      "name": "George Lee",
+      "email": "george.lee@example.com",
+      "city": "San Antonio"
+    },
+    {
+      "id": "8h9i0j1k",
+      "name": "Hannah Lewis",
+      "email": "hannah.lewis@example.com",
+      "city": "San Diego"
+    },
+    {
+      "id": "9i0j1k2l",
+      "name": "Isaac Clark",
+      "email": "isaac.clark@example.com",
+      "city": "Dallas"
+    },
+    {
+      "id": "10j1k2l3m",
+      "name": "Julia Adams",
+      "email": "julia.adams@example.com",
+      "city": "Austin"
+    }
+  ]
+}
